@@ -17,11 +17,16 @@ header{
     align-items: center;
     background-color: black;
     color: #fff;
+    
+}
+header >img{
+    position: fixed;
 }
 header > .img>img{
     width: 10rem;
     height: 10rem;
     text-align: center;
+
 }
 .experiencia{
     text-align: center;
@@ -66,21 +71,36 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 18rem;
-    padding: 0.5rem;
-    margin: 2rem;
+    width: 25rem;
+    padding: 1rem;
+    margin: 1rem;
     background-color:#00af00;
 }
 .card > .img >img{
     width: 5rem;
     height: 5rem;
     margin-right: 3rem;
+    object-fit: cover;
 }
 .card>.information > p{
     margin-bottom: 2rem;
 }
 .card>.information > h3{
     margin-bottom: 0.5rem;
+}
+.card-e > .img >img{
+    width: 8rem;
+    height: 8rem;
+    margin-right: 3rem;
+    text-align: center;
+    position: relative;
+    right: -1rem;
+    border-radius: 50%;
+}
+.card-e{
+    width: 10rem;
+    margin: 3rem;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -96,6 +116,9 @@ a:hover{
     color: #fff;
     border: 4px solid #ffffff;
 }
+
+
+
 @media screen {
  @media (min-width:900px ){
     body{
