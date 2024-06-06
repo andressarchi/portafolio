@@ -31,6 +31,9 @@ header > .img>img{
     position: relative;
     margin-left: 2rem;
 }
+.experiencia>p{
+    color: #504f4f;
+}
 .experiencia >h3{
     color: #2b221f;
 }
