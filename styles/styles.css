@@ -8,15 +8,15 @@
   font-style: normal;
 }
 body{
-   background-color:#c7bcaa; 
+   background-color:#ffff; 
 }
 header{
     padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#e9e5dd;
-    color: #000000;
+    background-color:#1ea1ff;
+    color: #f8f6f4;
     
 }
 
@@ -32,14 +32,14 @@ header > .img>img{
     margin-left: 2rem;
 }
 .experiencia>p{
-    color: #504f4f;
+    color: #f8f6f4;
 }
 .experiencia >h3{
-    color: #2b221f;
+    color: #0e2d5d;
 }
 
 h1{
-    color: #2b221f;
+    color: #0e2d5d;
     position: relative;
     left: 1.5rem;
 }
@@ -47,7 +47,7 @@ h1{
     margin-top: 3rem;
     display: flex;
     align-items: center;
-    color:#2b221f;
+    color:#0e2d5d;
 }
 .logo-s{
     width: 2rem;
@@ -59,7 +59,8 @@ hr{
     border: none;
     height:5px ;
     margin: 0.2rem 2rem;
-    background-color:#f8f6f4;
+    border-radius: 10rem;
+    background-color:#0064E8;
 }
 .container{
     display: flex;
@@ -75,7 +76,7 @@ hr{
     width: 25rem;
     padding: 1rem;
     margin: 1rem;
-    background-color:#f8f6f4;
+    background-color:#b5e7ff;
     border-radius: 20px;
 }
 .card > .img >img{
@@ -110,13 +111,13 @@ a{
 }
 a:hover{
     cursor: pointer;
-    color: #2b221f;
+    color: #0e2d5d;
 }
 .card-R{
     padding: 1rem;
     margin: 2rem;
     color: #2b221f;
-    border: 4px solid #2b221f;
+    border: 4px solid #b5e7ff;
 }
 .information > progress[value]{
     width: 130px; 
@@ -129,15 +130,33 @@ progress[value]::-webkit-progress-bar{
     border-radius: 3rem;
 }
 progress[value]::-webkit-progress-value{
-    background-color: #504f4f;
+    background-color: #b5e7ff;
     border-radius: 3rem;
 }
 
-
+.personal-information{
+    position: relative;
+    top: 22rem;
+}
+.personal-information > h3{
+    color: #0e2d5d;
+}
+.people > h3{
+    color: #0e2d5d;
+}
+.personal-information{
+    display: none;
+}
+i{
+    margin: 5px;
+}
 @media screen {
  @media (min-width:900px ){
     body{
         display: flex;
+    }
+    .personal-information{
+        display: inline;
     }
     header{
         width: 40rem;
