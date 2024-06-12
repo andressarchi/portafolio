@@ -118,9 +118,19 @@ a:hover{
     color: #2b221f;
     border: 4px solid #2b221f;
 }
-.progress{
-    height: 5rem;
-
+.information > progress[value]{
+    width: 130px; 
+    height:20px;
+    appearance: none;
+    --webkit-appearance:none;
+}
+progress[value]::-webkit-progress-bar{
+    background-color: #e9e5dd;
+    border-radius: 3rem;
+}
+progress[value]::-webkit-progress-value{
+    background-color: #504f4f;
+    border-radius: 3rem;
 }
 
 
