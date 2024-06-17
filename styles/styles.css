@@ -154,6 +154,15 @@ progress[value]::-webkit-progress-value{
 i{
     margin: 5px;
 }
+#information-personal >  h3{
+    color: #0e2d5d;
+}
+#studies>  h3{
+    color: #0e2d5d;
+}
+#Redes>  h3{
+    color: #0e2d5d;
+}
 @media screen {
  @media (min-width:900px ){
     body{
