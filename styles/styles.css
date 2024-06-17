@@ -137,6 +137,8 @@ progress[value]::-webkit-progress-value{
 .personal-information{
     position: relative;
     top: 22rem;
+    text-align:left ;
+    line-height: 0.8rem;
 }
 .personal-information > h3{
     color: #0e2d5d;
@@ -166,10 +168,19 @@ i{
     header > .img>img{
         position: relative;
         top: 15rem;
+        border-radius: 20px;
     }
     .experiencia{
         position: relative;
         top: 15rem;
+        left: -1rem;
+        /* text-align: justify; */
+        text-align: left;
+    }
+    .experiencia>h3{
+        text-align: center;
+        position: relative;
+        left: -1rem;
     }
     h1{
         position:relative;
