@@ -74,10 +74,12 @@ hr{
     justify-content: center;
     align-items: center;
     width: 25rem;
+    height: 12rem;
     padding: 1rem;
-    margin: 1rem;
-    background-color:#b5e7ff;
+    margin: 2rem 1rem  1rem 1rem;
+    background-color:#89d6fa;
     border-radius: 20px;
+    overflow: hidden;
 }
 .card > .img >img{
     width: 5rem;
@@ -186,5 +188,8 @@ i{
         position:relative;
         left: -.05rem;
     }
+   a{
+    color: #ffff;
+   }
  }   
 }
