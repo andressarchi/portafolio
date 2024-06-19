@@ -47,6 +47,7 @@ h1{
     margin-top: 3rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     color:#0e2d5d;
 }
 .logo-s{
@@ -200,6 +201,9 @@ i{
     }
    a{
     color: #ffff;
+   }
+   .title-section{
+    justify-content: flex-start;
    }
  }   
 }
