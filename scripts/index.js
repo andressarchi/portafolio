@@ -26,6 +26,7 @@ inicio.addEventListener("click", () => {
     section.forEach(section => {
         section.classList.remove("oculto");
     });
+    nav.classList.remove("visable")
     main.innerHTML = contenidoOriginal; // Restaurar contenido original de main
 });
 
@@ -53,6 +54,7 @@ infoPersonal.addEventListener("click", () => {
     <p><i class="bi bi-person-arms-up"></i>edad: 18 años</p>
     </div>
  </section>`
+ nav.classList.remove("visable")
 });
 
 
@@ -80,6 +82,7 @@ redes.addEventListener("click", () => {
                 </ul>
     </div>
  </section>`
+ nav.classList.remove("visable")
 });
 estudios.addEventListener("click", () => {
     section.forEach((section) => {
@@ -104,4 +107,5 @@ estudios.addEventListener("click", () => {
 </ul>
     </div>
  </section>`
+ nav.classList.remove("visable")
 });
