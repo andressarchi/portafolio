@@ -89,7 +89,7 @@ estudios.addEventListener("click", () => {
     <!--secciopn de proyectos   -->
     <div class="title-section">
         <img class="logo-s" src="/assets/img/senatrans.png" alt="#">
-    <h2>Redes sociales</h2>
+    <h2>Estudios</h2>
     </div>
     <hr>
     
