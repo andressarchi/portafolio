@@ -49,7 +49,8 @@ infoPersonal.addEventListener("click", () => {
     <div class="people">
     <br><br>
     <p><i class="bi bi-person-badge-fill"></i>cedula: 1139874224</p><br>
-    <p><i class="bi bi-envelope"></i>correo: sarchiandres63@gmail.com</p><br>
+    <p><i class="bi bi-envelope"></i><a href="mailto:sarchiandres63@gmail.com?subject=contactame&body=Hola%20Andres!">sarchiandres63@gmail.com</a><br><br>
+    </p>
     <p><i class="bi bi-geo-alt-fill"></i>lugar de residencia: Armenia,Quindio </p><br>
     <p><i class="bi bi-person-arms-up"></i>edad: 18 años</p>
     </div>
