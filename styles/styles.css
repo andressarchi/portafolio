@@ -10,6 +10,12 @@
 body{
    background-color:#ffff; 
 }
+section{
+    margin-top: 5rem;
+}
+h3{
+    margin-bottom: 3rem;
+}
 header{
     padding: 1rem;
     display: flex;
@@ -29,7 +35,7 @@ header > .img>img{
 }
 .experiencia{
     text-align: center;
-    position: relative;
+    /* position: relative; */
     margin-left: 2rem;
 }
 .experiencia>p{
@@ -145,7 +151,7 @@ progress[value]::-webkit-progress-value{
 
 .personal-information{
     position: relative;
-    top: 22rem;
+    top: 15rem;
     text-align:left ;
     line-height: 0.8rem;
 }
