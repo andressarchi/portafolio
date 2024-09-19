@@ -21,7 +21,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#1ea1ff;
+    background-color:#008837;
     color: #f8f6f4;
 
 }
@@ -31,7 +31,7 @@ header > .img>img{
     height: 10rem;
     text-align: center;
     border-radius: 50%;
-  
+
 }
 .experiencia{
     text-align: center;
@@ -42,11 +42,12 @@ header > .img>img{
     color: #f8f6f4;
 }
 .experiencia >h3{
-    color: #0e2d5d;
+    color: #ffff;
+    font-weight: bold;
 }
 
 h1{
-    color: #0e2d5d;
+    color: #ffff;
     position: relative;
     left: 1.5rem;
 }
@@ -55,7 +56,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#0e2d5d;
+    color:#333333;
 }
 .logo-s{
     width: 2rem;
@@ -68,7 +69,7 @@ hr{
     height:5px ;
     margin: 0.2rem 2rem;
     border-radius: 10rem;
-    background-color:#0064E8;
+    background-color:#008837;
 }
 .container{
     display: flex;
@@ -85,7 +86,7 @@ hr{
     height: 14rem;
     padding: 1rem;
     margin: 2rem 1rem  1rem 1rem;
-    background-color:#89d6fa;
+    background-color:#008837;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -122,14 +123,14 @@ a{
 }
 a:hover{
     cursor: pointer;
-    color: #0e2d5d;
+    color: #03c24f;
 }
 .card-R{
     padding: 1rem;
     margin: 2rem;
     color: #2b221f;
-    border: 4px solid#5ccbff;
-
+    border: 4px solid #03c24f;
+    border-radius: 10px;
 }
 .card-R>p{
 margin: 0.5rem;
@@ -143,9 +144,10 @@ margin: 0.5rem;
 progress[value]::-webkit-progress-bar{
     background-color: #e9e5dd;
     border-radius: 3rem;
+    border: 0.5px solid #008837;
 }
 progress[value]::-webkit-progress-value{
-    background-color: #6dccf8;
+    background-color: #03c24f;
     border-radius: 3rem;
 }
 
@@ -156,10 +158,10 @@ progress[value]::-webkit-progress-value{
     line-height: 0.8rem;
 }
 .personal-information > h3{
-    color: #0e2d5d;
+    color: #ffff;
 }
 .people > h3{
-    color: #0e2d5d;
+    color: #ffff;
 }
 .personal-information{
     display: none;
@@ -168,13 +170,16 @@ i{
     margin: 5px;
 }
 #information-personal >  h3{
-    color: #0e2d5d;
+    color: #ffff;
+    font-weight: bold;
 }
 #studies>  h3{
-    color: #0e2d5d;
+    color: #ffff;
+    font-weight: bold;
 }
 #Redes>  h3{
-    color: #0e2d5d;
+    color:#ffff;
+    font-weight: bold;
 }
 
 .nav {
@@ -182,7 +187,7 @@ i{
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: #0e2d5d;
+    background-color: #333333;
     padding: 2rem;
     box-shadow: 0 0 0 100vmax rgba(0,0,0,.5);
     opacity: 0;
@@ -207,7 +212,7 @@ i{
     color: #ffff;
 }
 header>#btn-menu{
-    background-color:#1ea1ff;
+    background-color:#008837;
     border: none;
     font-size: 1.3rem;
     margin: 1rem 1rem 0 0;
