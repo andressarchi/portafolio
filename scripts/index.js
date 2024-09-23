@@ -78,7 +78,7 @@ redes.addEventListener("click", () => {
     <div class="people">
     <br><br>
     <ul>
-                    <li><i class="bi bi-instagram"></i><a href="https://www.instagram.com/andres_sarchi?igsh=MXRwanVvemEwcXdrOA%3D%3D&utm_source=qr" target="_blank">instagram:  @adres_sarchi</a></li><br>
+                    <li><i class="bi bi-instagram"></i><a href="https://www.instagram.com/andres_sarchi?igsh=MXRwanVvemEwcXdrOA%3D%3D&utm_source=qr" target="_blank">instagram:  @andres_sarchi</a></li><br>
                     <li><i class="bi bi-facebook"></i><a href="https://www.facebook.com/profile.php?id=100056082040714&mibextid=LQQJ4d" target="_blank">facebook:  Andres Sarchi</a></li><br>
                    <li><a href="tel:+573248590345"><i class="bi bi-phone"></i>+57 3248590345</a></li>
                 </ul>
