@@ -164,7 +164,7 @@ progress[value]::-webkit-progress-value{
 }
 .people > p{
     width: 18rem;
-    margin-bottom: 4rem;
+   
 }
 .personal-information{
     display: none;
