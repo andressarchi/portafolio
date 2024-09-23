@@ -7,6 +7,7 @@ const redes= document.querySelector("#redes-sociales")
 const section = document.querySelectorAll(`.section`)
 const main = document.querySelector(".main")
 const estudios = document.querySelector("#estudios")
+const perfil = document.querySelector("#perfil")
 let contenidoOriginal = main.innerHTML;
 
 
@@ -110,3 +111,23 @@ estudios.addEventListener("click", () => {
  </section>`
  nav.classList.remove("visable")
 });
+perfil.addEventListener("click",()=>{
+    main.innerHTML=`<section class="section" style=>
+    <!--secciopn de proyectos   -->
+    <div class="title-section">
+        <img class="logo-s" src="/assets/img/senatrans.png" alt="#">
+    <h2>Perfil</h2>
+    </div>
+    <hr>
+    
+    <div class="container">
+   
+    <div class="people">
+    <br><br>
+    <p>Soy un estudiante de Tecnología en Análisis y Desarrollo de Software en el SENA Agropecuario, con formación en Programación de Software y especialización en el uso de tecnologías como HTML, CSS, JavaScript, SQL, Java, TypeScript, Git y GitHub. Actualmente tengo un nivel de programación junior, con habilidades en el desarrollo de aplicaciones web  y control de versiones. Me destaco por mi capacidad para comunicarme de manera efectiva, colaborar en equipos multidisciplinarios y adaptarme rápidamente a nuevos entornos tecnológicos, promoviendo siempre un trabajo organizado y orientado a resultados. Estoy dispuesto a aprender lo que sea necesario para mejorar mis competencias y continuar creciendo en el campo del desarrollo de software</p>
+
+    </div>
+ </section>`
+    
+ nav.classList.remove("visable")
+})
