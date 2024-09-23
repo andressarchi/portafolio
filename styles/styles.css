@@ -164,7 +164,7 @@ progress[value]::-webkit-progress-value{
 }
 .people > p{
     width: 18rem;
-    
+    margin-bottom: 4rem;
 }
 .personal-information{
     display: none;
@@ -227,7 +227,7 @@ header>#btn-menu{
 .oculto{
     display: none;
 }
-@media (max-width: 860px){
+@media (max-width: 960px){
     .experiencia{
        display: none;
     }
@@ -242,7 +242,7 @@ header>#btn-menu{
     }
     
 }
-    @media (min-width: 860px) and (max-width: 1299px){
+    @media (min-width: 960px) and (max-width: 1299px){
         .experiencia{
             display: inline;
             margin-top: -7rem;
@@ -288,7 +288,7 @@ header>#btn-menu{
     }
     .nombre{
         position: relative;
-       left: 8rem;
+       left: 9rem;
         
     }
    a{
