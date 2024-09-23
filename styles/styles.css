@@ -31,12 +31,14 @@ header > .img>img{
     height: 10rem;
     text-align: center;
     border-radius: 50%;
-
+    position: relative;
+    left: 2.9rem;
 }
 .experiencia{
     text-align: center;
     /* position: relative; */
     margin-left: 2rem;
+    display: none;
 }
 .experiencia>p{
     color: #f8f6f4;
@@ -217,8 +219,9 @@ header>#btn-menu{
     font-size: 1.3rem;
     margin: 1rem 1rem 0 0;
     position:relative ;
-    top :-7rem;
-    color: #0e2d5d;
+
+    left: -15rem;
+    color: #333333;
 }
 .oculto{
     display: none;
@@ -233,20 +236,24 @@ header>#btn-menu{
     }
     header{
         width: 40rem;
-        display: block;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
     header > .img>img{
         position: relative;
+        margin-left: 2rem;
         top: 15rem;
         
     }
     .experiencia{
         position: relative;
         top: 15rem;
-        left: -1rem;
+        left: 1rem;
         /* text-align: justify; */
         text-align: left;
+        display: block;
     }
     .experiencia>h3{
         text-align: center;
